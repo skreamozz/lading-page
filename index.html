@@ -61,7 +61,7 @@
 
       <div
         id="#whoIam?"
-        class="bg-[#FFB719] text-white text-center pl-5 pr-5 pb-3"
+        class="bg-[#FFB719] text-white text-center pl-5 pr-5 pb-72"
       >
         <h2 class="text-2xl pt-3">Yo soy un gran lider por que...</h2>
         <p>
@@ -73,7 +73,61 @@
       </div>
 
       <div id="carrusel" class="relative">
-        <div id="img-1"></div>
+        <div id="cards" class="overflow-hidden w-full h-52 500px:h-72">
+          <div id="card-1" class="relative text-2xl">
+            <div class="bg-img-1 bg-cover w-full h-52 500px:h-72"></div>
+
+            <a href="#card-3"
+              ><div
+                class="absolute left-2 top-24 transition-all duration-100 hover:text-3xl"
+              >
+                <i class="bi bi-caret-left-fill absolute"></i>
+              </div>
+            </a>
+            <a href="#card-2">
+              <div
+                class="absolute right-2 top-24 transition-all duration-100 hover:text-3xl"
+              >
+                <i class="bi bi-caret-right-fill"></i></div
+            ></a>
+          </div>
+
+          <div id="card-2" class="relative text-2xl">
+            <div class="bg-img-2 bg-cover w-full h-52 500px:h-72"></div>
+
+            <a href="#card-1">
+              <div
+                class="absolute left-2 top-24 cursor-pointer transition-all duration-100 hover:text-3xl"
+              >
+                <i class="bi bi-caret-left-fill absolute"></i>
+              </div>
+            </a>
+            <a href="#card-3">
+              <div
+                class="absolute right-2 top-24 cursor-pointer transition-all duration-100 hover:text-3xl"
+              >
+                <i class="bi bi-caret-right-fill"></i></div
+            ></a>
+
+            <div id="card-3" class="relative text-2xl">
+              <div class="bg-img-3 bg-cover w-full h-52 500px:h-72"></div>
+
+              <a href="#card-2">
+                <div
+                  class="absolute left-2 top-24 transition-all duration-100 hover:text-3xl"
+                >
+                  <i class="bi bi-caret-left-fill absolute"></i></div
+              ></a>
+              <a href="#card-1">
+                <div
+                  class="absolute right-2 top-24 cursor-pointer transition-all duration-100 hover:text-3xl"
+                >
+                  <i class="bi bi-caret-right-fill"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   </body>
