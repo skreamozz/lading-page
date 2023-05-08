@@ -45,7 +45,7 @@
       </div>
     </header>
 
-    <main>
+    <main class="relative">
       <div id="home" class="flex justify-center items-center flex-wrap">
         <h1 class="font-extrabold text-3xl text-center w-screen mb-4 pl-5 pr-5">
           Nombre completo de la persona o marca
@@ -60,71 +60,129 @@
       </div>
 
       <div
-        id="#whoIam?"
-        class="bg-[#FFB719] text-white text-center pl-5 pr-5 pb-72"
+        class="bg-[#FFB719] h-[25rem] text-white text-center pl-5 pr-5 pb-72"
       >
-        <h2 class="text-2xl pt-3">Yo soy un gran lider por que...</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
-          temporibus mollitia animi, ipsa nulla, pariatur autem adipisci
-          accusamus a quidem voluptas, amet nemo laborum. Repellendus error ipsa
-          consequuntur blanditiis eius.
-        </p>
-      </div>
-
-      <div id="carrusel" class="relative">
-        <div id="cards" class="overflow-hidden w-full h-52 500px:h-72">
-          <div id="card-1" class="relative text-2xl">
-            <div class="bg-img-1 bg-cover w-full h-52 500px:h-72"></div>
-
-            <a href="#card-3"
-              ><div
-                class="absolute left-2 top-24 transition-all duration-100 hover:text-3xl"
-              >
-                <i class="bi bi-caret-left-fill absolute"></i>
-              </div>
-            </a>
-            <a href="#card-2">
-              <div
-                class="absolute right-2 top-24 transition-all duration-100 hover:text-3xl"
-              >
-                <i class="bi bi-caret-right-fill"></i></div
-            ></a>
+        <div id="#whoIam?">
+          <h2 class="text-2xl pt-3 pb-4">Yo soy un gran lider por que...</h2>
+          <div>
+            <p class="mb-5">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
+              temporibus mollitia animi, ipsa nulla, pariatur autem adipisci
+              accusamus a quidem voluptas, amet nemo laborum. Repellendus error
+              ipsa consequuntur blanditiis eius.
+            </p>
           </div>
 
-          <div id="card-2" class="relative text-2xl">
-            <div class="bg-img-2 bg-cover w-full h-52 500px:h-72"></div>
-
-            <a href="#card-1">
+          <div id="my-team" class="">
+            <div
+              id="employees"
+              class="top-[50vw] pl-5 pr-5 grid grid-cols-1 grid-rows-3 gap-10 500px:pl-10 500px:pr-10 700px:grid-rows-1 700px:grid-cols-3 text-black"
+            >
               <div
-                class="absolute left-2 top-24 cursor-pointer transition-all duration-100 hover:text-3xl"
+                id="#employee-1"
+                class="bg-white flex justify-center items-center flex-wrap text-center rounded-md border-[1px] border-gray-300 pt-7 shadow-md"
               >
-                <i class="bi bi-caret-left-fill absolute"></i>
+                <p class="w-full font-semibold mb-3">Nombre del integrante</p>
+                <div class="bg-logo-user bg-cover w-16 h-16 mb-3"></div>
+                <p class="w-full font-semibold mb-3">Cargo</p>
+                <p class="w-full pl-5 pr-5 pb-10">
+                  Descripción del miembro: Lorem ipsum dolor, sit amet
+                  consectetur adipisicing elit. Molestias delectus quo
+                  consequuntur dignissimos dolor! Minima officia eum nulla quas,
+                  assumenda vel adipisci ipsam accusamus aspernatur sapiente
+                  dolorem tempore non delectus.
+                </p>
               </div>
-            </a>
-            <a href="#card-3">
+
               <div
-                class="absolute right-2 top-24 cursor-pointer transition-all duration-100 hover:text-3xl"
+                id="#employee-2"
+                class="bg-white flex justify-center items-center flex-wrap text-center rounded-md border-[1px] border-gray-300 pt-7 shadow-md"
               >
-                <i class="bi bi-caret-right-fill"></i></div
-            ></a>
+                <p class="w-full font-semibold mb-3">Nombre del integrante</p>
+                <div class="bg-logo-user bg-cover w-16 h-16 mb-3"></div>
+                <p class="w-full font-semibold mb-3">Cargo</p>
+                <p class="w-full pl-5 pr-5 pb-10">
+                  Descripción del miembro: Lorem ipsum dolor, sit amet
+                  consectetur adipisicing elit. Molestias delectus quo
+                  consequuntur dignissimos dolor! Minima officia eum nulla quas,
+                  assumenda vel adipisci ipsam accusamus aspernatur sapiente
+                  dolorem tempore non delectus.
+                </p>
+              </div>
 
-            <div id="card-3" class="relative text-2xl">
-              <div class="bg-img-3 bg-cover w-full h-52 500px:h-72"></div>
+              <div
+                id="#employee-3"
+                class="bg-white flex justify-center items-center flex-wrap text-center rounded-md border-[1px] border-gray-300 pt-7 mb-8 shadow-md"
+              >
+                <p class="w-full font-semibold mb-3">Nombre del integrante</p>
+                <div class="bg-logo-user bg-cover w-16 h-16 mb-3"></div>
+                <p class="w-full font-semibold mb-3">Cargo</p>
+                <p class="w-full pl-5 pr-5 pb-10">
+                  Descripción del miembro: Lorem ipsum dolor, sit amet
+                  consectetur adipisicing elit. Molestias delectus quo
+                  consequuntur dignissimos dolor! Minima officia eum nulla quas,
+                  assumenda vel adipisci ipsam accusamus aspernatur sapiente
+                  dolorem tempore non delectus.
+                </p>
+              </div>
+            </div>
+          </div>
 
-              <a href="#card-2">
-                <div
-                  class="absolute left-2 top-24 transition-all duration-100 hover:text-3xl"
-                >
-                  <i class="bi bi-caret-left-fill absolute"></i></div
-              ></a>
-              <a href="#card-1">
-                <div
-                  class="absolute right-2 top-24 cursor-pointer transition-all duration-100 hover:text-3xl"
-                >
-                  <i class="bi bi-caret-right-fill"></i>
+          <div id="carrusel" class="relative w-[100%]">
+            <div id="cards" class="overflow-hidden w-full h-52 500px:h-72">
+              <div id="card-1" class="relative text-2xl">
+                <div class="bg-img-1 bg-cover w-full h-52 500px:h-72"></div>
+
+                <a href="#card-3"
+                  ><div
+                    class="absolute left-2 top-24 transition-all duration-100 hover:text-3xl"
+                  >
+                    <i class="bi bi-caret-left-fill absolute"></i>
+                  </div>
+                </a>
+                <a href="#card-2">
+                  <div
+                    class="absolute right-2 top-24 transition-all duration-100 hover:text-3xl"
+                  >
+                    <i class="bi bi-caret-right-fill"></i></div
+                ></a>
+              </div>
+
+              <div id="card-2" class="relative text-2xl">
+                <div class="bg-img-2 bg-cover w-full h-52 500px:h-72"></div>
+
+                <a href="#card-1">
+                  <div
+                    class="absolute left-2 top-24 cursor-pointer transition-all duration-100 hover:text-3xl"
+                  >
+                    <i class="bi bi-caret-left-fill absolute"></i>
+                  </div>
+                </a>
+                <a href="#card-3">
+                  <div
+                    class="absolute right-2 top-24 cursor-pointer transition-all duration-100 hover:text-3xl"
+                  >
+                    <i class="bi bi-caret-right-fill"></i></div
+                ></a>
+
+                <div id="card-3" class="relative text-2xl">
+                  <div class="bg-img-3 bg-cover w-full h-52 500px:h-72"></div>
+
+                  <a href="#card-2">
+                    <div
+                      class="absolute left-2 top-24 transition-all duration-100 hover:text-3xl"
+                    >
+                      <i class="bi bi-caret-left-fill absolute"></i></div
+                  ></a>
+                  <a href="#card-1">
+                    <div
+                      class="absolute right-2 top-24 cursor-pointer transition-all duration-100 hover:text-3xl"
+                    >
+                      <i class="bi bi-caret-right-fill"></i>
+                    </div>
+                  </a>
                 </div>
-              </a>
+              </div>
             </div>
           </div>
         </div>

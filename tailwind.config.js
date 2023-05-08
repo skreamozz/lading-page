@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       screens: {
         "500px": "500px",
+        "700px": "700px",
       },
       backgroundImage: {
         "logo-facebook": "url(../src/imgs/facebook.png)",
@@ -14,6 +15,10 @@ module.exports = {
         "img-1": "url(../src/imgs/img1.jpg)",
         "img-2": "url(../src/imgs/img2.jpg)",
         "img-3": "url(../src/imgs/img3.jpg)",
+      },
+
+      boxShadow: {
+        "shadow-employee": "",
       },
     },
   },
