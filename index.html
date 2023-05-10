@@ -18,7 +18,7 @@
     <title>Lading Page</title>
   </head>
   <body class="">
-    <header class="mb-8">
+    <header class="mb-8 relative overflow-x-hidden">
       <div
         class="relative text-xl text-center flex justify-start items-center pl-5 pr-5"
       >
@@ -41,14 +41,28 @@
           </div>
         </div>
 
-        <i class="absolute right-2 bi bi-list text-3xl cursor-pointer"></i>
+        <i
+          id="button-menu"
+          class="absolute right-2 bi bi-list text-3xl cursor-pointer"
+        ></i>
+
+        <div
+          id="items-menu"
+          class="absolute top-12 -right-[1000px] w-[70%] h-screen bg-black text-white transition-all duration-300"
+        >
+          <a href="#"> <p class="w-full mt-5 mb-5">¿Quién soy?</p> </a>
+          <a href="#"> <p class="w-full mb-5">Por la comunidad</p> </a>
+          <a href="#"> <p class="w-full mb-5">Resultados</p> </a>
+          <a href="#"> <p class="w-full mb-5">Testimonios</p> </a>
+          <a href="#"> <p class="w-full">Equipo de Trabajo</p> </a>
+        </div>
       </div>
     </header>
 
-    <main class="relative">
+    <main class="relative z-10">
       <div id="home" class="flex justify-center items-center flex-wrap">
         <h1 class="font-extrabold text-3xl text-center w-screen mb-4 pl-5 pr-5">
-          Nombre completo de la persona o marca
+          ING Esmer Rojas
         </h1>
         <div class="w-52 h-52 bg-logo-user bg-cover mb-8">.</div>
         <p class="w-screen text-center pl-5 pr-5 pb-8">
@@ -194,5 +208,7 @@
         </div>
       </div>
     </main>
+
+    <script src="./index.js"></script>
   </body>
 </html>
