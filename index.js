@@ -12,11 +12,11 @@ buttonMenu.addEventListener("click", () => {
     itemsMenu.className =
       "absolute top-12 right-0 w-[70%] h-screen bg-black text-white transition-all  duration-300 z-50";
 
-    header.className = "mb-8 relative overflow-x-visible";
+    header.className = "mb-8 relative overflow-visible";
 
     setTimeout(() => {}, 350);
   } else {
-    header.className = "mb-8 relative overflow-x-hidden";
+    header.className = "mb-8 relative overflow-hidden";
 
     itemsMenu.className =
       "absolute top-12 -right-[1000px] w-[70%] h-screen bg-black text-white transition-all duration-300 z-50";
