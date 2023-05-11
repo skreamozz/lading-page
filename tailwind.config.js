@@ -17,6 +17,7 @@ module.exports = {
         "img-1": "url(../src/imgs/img1.jpg)",
         "img-2": "url(../src/imgs/img2.jpg)",
         "img-3": "url(../src/imgs/img3.jpg)",
+        "img-banner": "url(../src/imgs/imgBanner.jpeg)",
       },
     },
   },

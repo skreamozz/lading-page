@@ -546,6 +546,10 @@ video {
   top: 50vw;
 }
 
+.top-0 {
+  top: 0px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -582,6 +586,14 @@ video {
   margin-top: 1.25rem;
 }
 
+.-mt-2 {
+  margin-top: -0.5rem;
+}
+
+.-mt-5 {
+  margin-top: -1.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -592,6 +604,10 @@ video {
 
 .h-16 {
   height: 4rem;
+}
+
+.h-48 {
+  height: 12rem;
 }
 
 .h-5 {
@@ -612,6 +628,18 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-40 {
+  height: 10rem;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
+.h-36 {
+  height: 9rem;
 }
 
 .w-16 {
@@ -644,10 +672,6 @@ video {
 
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-.grid-rows-2 {
-  grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
 .grid-rows-3 {
@@ -706,6 +730,10 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-img-banner {
+  background-image: url(../src/imgs/imgBanner.jpeg);
+}
+
 .bg-logo-facebook {
   background-image: url(../src/imgs/facebook.png);
 }
@@ -724,6 +752,26 @@ video {
 
 .bg-cover {
   background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-\[100\%\] {
+  background-position: 100%;
+}
+
+.bg-\[50\%\] {
+  background-position: 50%;
+}
+
+.bg-\[150\%\] {
+  background-position: 150%;
+}
+
+.bg-\[200\%\] {
+  background-position: 200%;
 }
 
 .pb-10 {
@@ -781,24 +829,16 @@ video {
   line-height: 1.75rem;
 }
 
+.font-black {
+  font-weight: 900;
+}
+
 .font-extrabold {
   font-weight: 800;
 }
 
 .font-semibold {
   font-weight: 600;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.font-black {
-  font-weight: 900;
-}
-
-.font-medium {
-  font-weight: 500;
 }
 
 .text-black {
@@ -856,24 +896,12 @@ body {
 }
 
 @media (min-width: 700px) {
-  .\37 00px\:w-\[40vw\] {
-    width: 40vw;
-  }
-
-  .\37 00px\:w-\[50\%\] {
-    width: 50%;
-  }
-
-  .\37 00px\:w-\[48\%\] {
-    width: 48%;
-  }
-
   .\37 00px\:w-\[45\%\] {
     width: 45%;
   }
 
-  .\37 00px\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .\37 00px\:w-\[50\%\] {
+    width: 50%;
   }
 
   .\37 00px\:grid-cols-3 {
