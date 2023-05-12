@@ -738,34 +738,6 @@ video {
   background-size: cover;
 }
 
-.bg-\[200\%\] {
-  background-position: 200%;
-}
-
-.bg-left-top {
-  background-position: left top;
-}
-
-.bg-\[300\%\] {
-  background-position: 300%;
-}
-
-.bg-\[100\%\] {
-  background-position: 100%;
-}
-
-.bg-\[50\%\] {
-  background-position: 50%;
-}
-
-.bg-\[10\%\] {
-  background-position: 10%;
-}
-
-.bg-\[1\%\] {
-  background-position: 1%;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -861,6 +833,7 @@ video {
 
 body {
   font-family: "Mukta", sans-serif;
+  background-color: #f6ffee;
 }
 
 @media (min-width: 400px) {
