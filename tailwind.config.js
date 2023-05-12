@@ -8,6 +8,7 @@ module.exports = {
         "400px": "400px",
         "500px": "500px",
         "700px": "700px",
+        "900px": "900px",
       },
       backgroundImage: {
         "logo-facebook": "url(../src/imgs/facebook.png)",
